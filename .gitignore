@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Local test artifacts (never commit sample documents)
+tests/samples/*
+!tests/samples/README.md
+
+# PaddleOCR model cache (downloaded at runtime, not committed)
+.paddlex/
+paddlex_hub/
